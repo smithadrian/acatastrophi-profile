@@ -42,7 +42,7 @@ export class appButton extends framework.appComponent {
         (!active || (active && hasParameters)) &&
         !disabled)
 
-    const isMobile = window.matchMedia("(max-width: 980px)").matches
+    const isMobile = window.matchMedia("(max-width: 880px)").matches
     const isHome = slate.command == "home"
     const isHomeMobile = isMobile && isHome
 

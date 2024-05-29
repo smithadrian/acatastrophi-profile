@@ -17,21 +17,18 @@ export const primary: framework.menu = {
     icon: "house",
     type: "bar",
     class: "barButton barTop primary",
-    offset: 1,
   },
   samplePage: {
     icon: "file",
     content: "Sample Page",
     type: "bar",
     class: "barButton barTop primary",
-    offset: 11,
   },
   anotherPage: {
     icon: "file-plus",
     content: "Another Page",
     type: "bar",
     class: "barButton barTop primary",
-    offset: 5,
   },
 }
 

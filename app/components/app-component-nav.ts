@@ -20,16 +20,14 @@ export class appNav extends framework.appComponent {
 
   linksPart(menu: framework.menu, addClass) {
     const linkList = Object.keys(menu ?? []).map((key, index) => {
-      const offset =
-        (menu[key].offset as number) ??
-        Object.keys(framework.menus.primary).indexOf(this.routeBase()) + 1
-      const colorIndex = index + offset
+      const colorIndex = index + ((menu[key] as framework.slate).offset ?? 0)
       const slate: framework.slate = {
         ...menu[key],
         index: colorIndex,
         active: this.routeBase() == menu[key].command,
-        command: menu[key].command ?? key,
-        content: menu[key].content ?? framework.unCamelCase(key),
+        command: (menu[key] as framework.slate).command ?? key,
+        content:
+          (menu[key] as framework.slate).content ?? framework.unCamelCase(key),
       }
       return framework.routedComponent(
         new framework.appButton(slate),
