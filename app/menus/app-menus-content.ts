@@ -19,14 +19,14 @@ export const primary: framework.menu = {
     class: "barButton barTop primary",
   },
   samplePage: {
-    icon: "file",
+    icon: "dog",
     content: "Sample Page",
     type: "bar",
     class: "barButton barTop primary",
   },
   anotherPage: {
-    icon: "file-plus",
-    content: "Another Page",
+    icon: "pencil",
+    content: "Illustrations",
     type: "bar",
     class: "barButton barTop primary",
   },

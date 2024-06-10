@@ -15,10 +15,8 @@ export const home: framework.menu = {
     img: { slate: "slate-logo.jpg" },
     desc: html`<framework-icon icon="layer-group"></framework-icon>Slate&trade;
       Starter Kit`,
-    content: [
-      "You've successfully installed the Slate Starter Kit.",
-      "Two sample pages with banners and panel content are included as examples.",
-    ],
+    content: ["hello world",
+    "how are we feeling"],
     default: true,
     menu: framework.omitMenuKey(framework.menus.primary, "home"),
   },
