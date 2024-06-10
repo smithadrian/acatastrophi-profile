@@ -12,13 +12,13 @@ import { html } from "lit"
 
 export const home: framework.menu = {
   home: {
-    img: { slate: "slate-logo.jpg" },
+    img: { acat: "A cat.png" },
     desc: html`<framework-icon icon="layer-group"></framework-icon>Slate&trade;
       Starter Kit`,
     content: ["hello world",
     "how are we feeling"],
     default: true,
-    menu: framework.omitMenuKey(framework.menus.primary, "home"),
+    menu: framework.menus.outiside,
   },
 }
 

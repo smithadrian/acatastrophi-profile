@@ -57,3 +57,14 @@ export const footer: framework.menu = {
     type: "bar",
   },
 }
+
+// LINKS
+export const outiside: framework.menu = {
+  linkedin: {
+    content: "linkedin",
+    icon: "fab linkedin",
+    url: "https://www.linkedin.com/in/adrian-smith-327938137/",
+    class: "barButton barSide primary",
+    type: "bar",
+  },
+}
