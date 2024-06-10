@@ -12,7 +12,7 @@ import { html } from "lit"
 
 export const home: framework.menu = {
   home: {
-    class: "rainbowBk thinBanner centerHorizontal centerVertical",
+    class: "purple thinBanner centerHorizontal centerVertical",
     labelClass: "bigFat thinDropShadow",
     label: "Acatastrophi",
   },
@@ -20,7 +20,7 @@ export const home: framework.menu = {
 
 export const samplePage: framework.menu = {
   samplePage: {
-    class: "blueGradBk thickBanner centerHorizontal centerVertical",
+    class: "purple thickBanner centerHorizontal centerVertical",
     labelClass: "mediumFat thinDropShadow",
     label: html`<div>This is the sample page banner.</div>`,
   },
@@ -32,4 +32,11 @@ export const anotherPage: framework.menu = {
     labelClass: "mediumFat thinDropShadow",
     label: html`<div>This is another page banner.</div>`,
   },
+}
+  export const about: framework.menu = {
+    about: {
+      class: "greenGradBk thickBanner centerHorizontal centerVertical",
+      labelClass: "mediumFat thinDropShadow",
+      label: html`<div>This is another page banner.</div>`,
+    },
 }

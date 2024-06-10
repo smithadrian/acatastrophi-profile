@@ -30,6 +30,13 @@ export const primary: framework.menu = {
     type: "bar",
     class: "barButton barTop primary",
   },
+
+  about: {
+    icon: "cat",
+    content: "Another Page",
+    type: "bar",
+    class: "barButton barTop primary",
+  },
 }
 
 // FOOTER NAV

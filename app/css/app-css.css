@@ -405,6 +405,15 @@ a:hover {
   );
 }
 
+.purple {
+  background: linear-gradient(
+    90deg,
+    rgb(165, 73, 226) 0%,
+    rgb(234, 63, 243) 50%,
+    rgb(96, 41, 150) 100%
+  );
+}
+
 .blueGradBk {
   background: linear-gradient(
     to right top,
