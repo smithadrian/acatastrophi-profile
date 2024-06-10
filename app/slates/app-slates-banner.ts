@@ -14,7 +14,7 @@ export const home: framework.menu = {
   home: {
     class: "rainbowBk thinBanner centerHorizontal centerVertical",
     labelClass: "bigFat thinDropShadow",
-    label: html`<div>Welcome to Slate</div>`,
+    label: "Acatastrophi",
   },
 }
 
