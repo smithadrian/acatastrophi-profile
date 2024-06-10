@@ -33,7 +33,7 @@ export const primary: framework.menu = {
 
   about: {
     icon: "cat",
-    content: "Another Page",
+    content: "About",
     type: "bar",
     class: "barButton barTop primary",
   },
