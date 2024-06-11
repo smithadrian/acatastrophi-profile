@@ -1,6 +1,16 @@
 {
-  "pinkish": "#DDCCFF",
-  "red": "#dc2f2f",
+"pinkish": "#DDCCFF",
+"thistle": "#D5C5E5",
+"wisteria": "#BEADDA",
+"violet": "#3B2E4D",
+"rosequartz": "#B3A6C3",
+"eggplant": "#29242E"
+
+}
+
+// some more basic colors
+
+ "red": "#dc2f2f",
   "orange-red": "#e1442f",
   "orange": "#ea6c34",
   "yellow-orange": "#f09232",
@@ -20,4 +30,3 @@
   "purple": "#c52b8b",
   "red-purple": "#e41986",
   "purple-red": "#d72958"
-}
