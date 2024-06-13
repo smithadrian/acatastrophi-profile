@@ -405,7 +405,7 @@ a:hover {
   );
 }
 
-.purple {
+.purpleGradBk {
   background: linear-gradient(
     90deg,
     rgb(165, 73, 226) 0%,

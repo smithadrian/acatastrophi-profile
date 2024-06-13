@@ -12,7 +12,7 @@ import { html } from "lit"
 
 export const home: framework.menu = {
   home: {
-    class: "purple thinBanner centerHorizontal centerVertical",
+    class: "purpleGradBk thinBanner centerHorizontal centerVertical",
     labelClass: "bigFat thinDropShadow",
     label: "Acatastrophi",
   },
