@@ -15,10 +15,9 @@ export const home: framework.menu = {
     img: { acat: "A cat.png" },
     desc: html`<framework-icon icon="layer-group"></framework-icon>Slate&trade;
       Starter Kit`,
-    content: ["hello world",
-    "how are we feeling"],
+    content: ["hello world", "how are we feeling"],
     default: true,
-    menu: framework.menus.outiside,
+    menu: framework.menus.outside,
   },
 }
 
