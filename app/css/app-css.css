@@ -32,6 +32,8 @@ a:hover {
   right: 0;
   z-index: 1000;
   background-color: black;
+  max-width: 1100px;
+  margin: 0 auto;
 
   + * {
     margin-top: 60px;
