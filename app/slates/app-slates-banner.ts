@@ -20,7 +20,7 @@ export const home: framework.menu = {
 
 export const samplePage: framework.menu = {
   samplePage: {
-    class: "purple thickBanner centerHorizontal centerVertical",
+    class: "purpleGradBk thickBanner centerHorizontal centerVertical",
     labelClass: "mediumFat thinDropShadow",
     label: html`<div>This is the sample page banner.</div>`,
   },
