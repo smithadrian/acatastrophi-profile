@@ -17,7 +17,6 @@ export const primary: framework.menu = {
     icon: "house",
     type: "bar",
     class: "barButton barTop primary",
-    
   },
   samplePage: {
     icon: "dog",
@@ -63,7 +62,7 @@ export const footer: framework.menu = {
 }
 
 // LINKS
-export const outiside: framework.menu = {
+export const outside: framework.menu = {
   linkedin: {
     content: "linkedin",
     icon: "fab linkedin",

@@ -64,13 +64,15 @@ export class appPanel extends framework.appComponent {
     // Label Part
     // Creates a div matching "${slate.class} > label"
     // Contains slate.label.
-    const labelPart = slate.desc
+    const labelPart = slate.label
       ? html`<div class="label">${slate.label}</div>`
       : null
 
     // Left Side
     // Contains imagePart and labelPart.
-    const leftSide = html`<div>${[imagePart, labelPart]}</div>`
+    const leftSide = html`<div>
+      ${slate.label ? [imagePart, labelPart] : imagePart}
+    </div>`
 
     // Description Part
     // Creates a div matching "${slate.class} > desc"
