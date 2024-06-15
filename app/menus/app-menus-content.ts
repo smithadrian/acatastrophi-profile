@@ -40,6 +40,14 @@ export const primary: framework.menu = {
     class: "barButton barTop primary",
     offset: -3,
   },
+
+  illustrations: {
+    icon: "cat",
+    content: "illustrations",
+    type: "bar",
+    class: "barButton barTop primary",
+    offset: -3,
+  },
 }
 
 // FOOTER NAV

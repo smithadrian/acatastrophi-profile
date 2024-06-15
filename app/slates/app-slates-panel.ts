@@ -43,3 +43,11 @@ export const about: framework.menu = {
     content: "This is another page's content.",
   },
 }
+
+export const illustrations: framework.menu = {
+  illustrations: {
+    desc: html`<framework-icon icon="file-plus"></framework-icon>Another Page`,
+    content: "This is another page's content.",
+  },
+
+}

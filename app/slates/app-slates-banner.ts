@@ -40,3 +40,11 @@ export const anotherPage: framework.menu = {
       label: html`<div>This is another page banner.</div>`,
     },
 }
+
+export const illustrations: framework.menu = {
+  illustrations: {
+    class: "greenGradBk thickBanner centerHorizontal centerVertical",
+    labelClass: "mediumFat thinDropShadow",
+    label: html`<div>This is another page banner.</div>`,
+  },
+}
