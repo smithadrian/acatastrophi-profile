@@ -28,14 +28,14 @@ export const samplePage: framework.menu = {
 
 export const anotherPage: framework.menu = {
   anotherPage: {
-    class: "greenGradBk thickBanner centerHorizontal centerVertical",
+    class: "purpleGradBk thickBanner centerHorizontal centerVertical",
     labelClass: "mediumFat thinDropShadow",
     label: html`<div>This is another page banner.</div>`,
   },
 }
   export const about: framework.menu = {
     about: {
-      class: "greenGradBk thickBanner centerHorizontal centerVertical",
+      class: "purpleGradBk thickBanner centerHorizontal centerVertical",
       labelClass: "mediumFat thinDropShadow",
       label: html`<div>This is another page banner.</div>`,
     },
@@ -43,7 +43,7 @@ export const anotherPage: framework.menu = {
 
 export const illustrations: framework.menu = {
   illustrations: {
-    class: "greenGradBk thickBanner centerHorizontal centerVertical",
+    class: "purpleGradBk thickBanner centerHorizontal centerVertical",
     labelClass: "mediumFat thinDropShadow",
     label: html`<div>This is another page banner.</div>`,
   },
