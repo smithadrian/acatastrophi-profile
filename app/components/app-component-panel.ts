@@ -46,50 +46,41 @@ export class appPanel extends framework.appComponent {
     // Use passed slate to create component.
     const slate = this.slate
 
-    // Image Style Map
-    // Adds slate.img as background image to imagePart.
-    const imageStyleMap = {
-      backgroundImage: this.slate.img
-        ? `url("${framework.assetUrl(slate.img as framework.asset)}")`
-        : "none",
-    }
-
     // Image Part
-    // Creates a div matching "${slate.class} > img"
-    // Contains the background image from the style map.
+    // Contains the image from the slate.
     const imagePart = slate.img
-      ? html`<div class="img" style=${styleMap(imageStyleMap)}></div>`
+      ? html`<div>
+          <img src=${framework.assetUrl(slate.img)} />
+        </div>`
       : null
 
     // Label Part
-    // Creates a div matching "${slate.class} > label"
+    // Creates a div matching "${slate.class} label"
     // Contains slate.label.
-    const labelPart = slate.label
+    const labelPart = slate.desc
       ? html`<div class="label">${slate.label}</div>`
       : null
 
     // Left Side
     // Contains imagePart and labelPart.
-    const leftSide = html`<div>
-      ${slate.label ? [imagePart, labelPart] : imagePart}
-    </div>`
+    const leftSide = html`<div>${[imagePart, labelPart]}</div>`
 
     // Description Part
-    // Creates a div matching "${slate.class} > desc"
+    // Creates a div matching "${slate.class} desc"
     // Contains slate.desc.
     const descPart = slate.desc
       ? html`<div class="desc">${slate.desc}</div>`
       : null
 
     // Content Part
-    // Creates a div matching "${slate.class} > content"
+    // Creates a div matching "${slate.class}  content"
     // Contains one div for each item in slate.content.
     const contentPart = html`<div class="content">
       ${[slate.content].flat().map(content => html`<div>${content}</div>`)}
     </div>`
 
     // Menu Part
-    // Creates a div matching "${slate.class} > menu"
+    // Creates a div matching "${slate.class}  menu"
     // Contains a framework.appNav, passed slate.menu.
     const menuPart = slate.menu
       ? html`<div class="menu">
@@ -106,7 +97,7 @@ export class appPanel extends framework.appComponent {
 
     // Outgoing Component
     // Contains leftSide and rightSide.
-    const componentParts = slate.img ? [leftSide, rightSide] : rightSide
+    const componentParts = [leftSide, rightSide]
 
     // Class Map
     // Uses the slate.class or "panel" default.
