@@ -59,6 +59,11 @@ export const footer: framework.menu = {
     class: "barButton barSide primary",
     type: "bar",
   },
+  resume: {
+    content: "Resume",
+    icon: "file",
+    url: "public/pdf/Adrian_Smith_Resume.pdf",
+  },
   slate: {
     icon: "layer-group",
     content: html`Slate&trade;`,
