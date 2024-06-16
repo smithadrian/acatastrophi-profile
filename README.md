@@ -94,3 +94,9 @@ export const name: framework.menu = {
 ## Adding additional panels
 
 - in `app-slates-panel.ts` copy an existing panel and paste changing the key name. *given command will auto show panels with key names*
+---
+---
+
+## Questions
+
+- how to add Icons to `framework-icons.ts`
