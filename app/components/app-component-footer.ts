@@ -24,7 +24,9 @@ export class appFooter extends framework.appComponent {
       new framework.appButton(framework.slates.button.slate.madeWith),
       this.route
     )
-    return html`<div class="tags">${buttonComponent}</div>`
+
+    return buttonComponent
+    // return html`<div class="madeWithHolder">${buttonComponent}</div>`
   }
 
   copyrightPart() {
@@ -33,7 +35,6 @@ export class appFooter extends framework.appComponent {
         &copy;${framework.todaysDate().year} ${framework.settings.app.copyright}
         v${framework.settings.app.version}
       </div>
-      ${this.madeWithButton()}
     </div>`
   }
 
@@ -46,6 +47,7 @@ export class appFooter extends framework.appComponent {
         new framework.appNav(framework.menus.footer),
         this.route
       ),
+
       this.copyrightPart(),
     ]
 

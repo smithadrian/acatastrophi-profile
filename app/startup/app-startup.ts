@@ -16,8 +16,8 @@ export {}
 framework.settings.app = {
   ...framework.settings.app,
   env: "dev",
-  name: "davidbethune.com",
-  copyright: "David Bethune. All rights reserved.",
+  name: "adriansmith.com",
+  copyright: "Adrian Smith. All rights reserved.",
   version: "1.0",
   isDebug: framework.getSession("debug") === "true",
 }

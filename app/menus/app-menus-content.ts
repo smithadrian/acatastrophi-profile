@@ -52,30 +52,18 @@ export const primary: framework.menu = {
 
 // FOOTER NAV
 export const footer: framework.menu = {
-  medium: {
-    icon: "fab medium",
-    url: "https://medium.com/@mimixco",
-    offset: Object.keys(primary).length,
-    class: "barButton barSide primary",
-    type: "bar",
-  },
-  gitHub: {
-    content: "GitHub",
-    icon: "fab github",
-    url: "https://github.com/garranplum",
-    offset: Object.keys(primary).length,
-    class: "barButton barSide primary",
-    type: "bar",
-  },
-}
-
-// LINKS
-export const outside: framework.menu = {
   linkedin: {
-    content: "linkedin",
+    content: "LinkedIn",
     icon: "fab linkedin",
     url: "https://www.linkedin.com/in/adrian-smith-327938137/",
     class: "barButton barSide primary",
     type: "bar",
+  },
+  slate: {
+    icon: "layer-group",
+    content: html`Slate&trade;`,
+    url: "https://davidbethune.com/software/slate",
+    class: "madeWith",
+    desc: "Made with Slate. A web framework by David Bethune.",
   },
 }
