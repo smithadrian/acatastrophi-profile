@@ -10,7 +10,7 @@ export const commands: framework.menu = {
     default: true,
   },
   samplePage: {},
-  anotherPage: {},
+  projectsPage: {},
   about: {},
   illustrations: {},
 }

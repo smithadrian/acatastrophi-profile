@@ -25,9 +25,9 @@ export const primary: framework.menu = {
     class: "barButton barTop primary",
     offset: -1,
   },
-  anotherPage: {
+  projectsPage: {
     icon: "pen",
-    content: "projects",
+    content: "Projects",
     type: "bar",
     class: "barButton barTop primary",
     offset: -2,
@@ -43,7 +43,7 @@ export const primary: framework.menu = {
 
   illustrations: {
     icon: "pencil",
-    content: "illustrations",
+    content: "Illustrations",
     type: "bar",
     class: "barButton barTop primary",
     offset: -3,

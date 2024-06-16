@@ -17,7 +17,6 @@ export const home: framework.menu = {
       Starter Kit`,
     content: ["hello world", "how are we feeling"],
     default: true,
-    menu: framework.menus.outside,
   },
 }
 
@@ -30,8 +29,8 @@ export const samplePage: framework.menu = {
   },
 }
 
-export const anotherPage: framework.menu = {
-  anotherPage: {
+export const projectsPage: framework.menu = {
+  projectsPage: {
     desc: html`<framework-icon icon="file-plus"></framework-icon>Another Page`,
     content: "This is another page's content.",
   },
@@ -40,14 +39,13 @@ export const anotherPage: framework.menu = {
 export const about: framework.menu = {
   about: {
     desc: html`<framework-icon icon="file-plus"></framework-icon>Another Page`,
-    content: "This is another page's content.",
+    content: "This is the about pagecontent.",
   },
 }
 
 export const illustrations: framework.menu = {
   illustrations: {
     desc: html`<framework-icon icon="file-plus"></framework-icon>Another Page`,
-    content: "This is another page's content.",
+    content: "This is the illustration page content.",
   },
-
 }

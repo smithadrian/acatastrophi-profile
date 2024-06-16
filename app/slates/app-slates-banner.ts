@@ -20,31 +20,31 @@ export const home: framework.menu = {
 
 export const samplePage: framework.menu = {
   samplePage: {
-    class: "purpleGradBk thickBanner centerHorizontal centerVertical",
+    class: "purpleGradBk thinBanner centerHorizontal centerVertical",
     labelClass: "mediumFat thinDropShadow",
     label: html`<div>This is the sample page banner.</div>`,
   },
 }
 
-export const anotherPage: framework.menu = {
+export const projectsPage: framework.menu = {
   anotherPage: {
-    class: "purpleGradBk thickBanner centerHorizontal centerVertical",
+    class: "purpleGradBk thinBanner centerHorizontal centerVertical",
     labelClass: "mediumFat thinDropShadow",
-    label: html`<div>This is another page banner.</div>`,
+    label: html`<div>This is the projects page banner.</div>`,
   },
 }
-  export const about: framework.menu = {
-    about: {
-      class: "purpleGradBk thickBanner centerHorizontal centerVertical",
-      labelClass: "mediumFat thinDropShadow",
-      label: html`<div>This is another page banner.</div>`,
-    },
+export const about: framework.menu = {
+  about: {
+    class: "purpleGradBk thinBanner centerHorizontal centerVertical",
+    labelClass: "mediumFat thinDropShadow",
+    label: html`<div>This is the about page banner.</div>`,
+  },
 }
 
 export const illustrations: framework.menu = {
   illustrations: {
-    class: "purpleGradBk thickBanner centerHorizontal centerVertical",
+    class: "purpleGradBk thinBanner centerHorizontal centerVertical",
     labelClass: "mediumFat thinDropShadow",
-    label: html`<div>This is another page banner.</div>`,
+    label: html`<div>This is the illustrations page banner.</div>`,
   },
 }
