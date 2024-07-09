@@ -62,7 +62,7 @@ export const footer: framework.menu = {
   resume: {
     content: "Resume",
     icon: "file",
-    url: "public/pdf/Adrian_Smith_Resume.pdf",
+    url: "public/pdf/resume2024.pdf",
   },
   slate: {
     icon: "layer-group",
