@@ -30,7 +30,7 @@ export const skillsPage: framework.menu = {
 
 export const projectsPage: framework.menu = {
   projectsPage: {
-    desc: html`<framework-icon icon="file-plus"></framework-icon>Another Page`,
+    desc: html`<framework-icon icon="bars-staggered"></framework-icon>Contract projects`,
     content: "This is where I will add my projects.",
   },
 }
