@@ -30,7 +30,7 @@ export const projectsPage: framework.menu = {
   ProjectsPage: {
     class: "purpleGradBk thinBanner centerHorizontal centerVertical",
     labelClass: "mediumFat thinDropShadow",
-    label: html`<div>This is the projects page banner.</div>`,
+    label: html`<div>Contracted Projects.</div>`,
   },
 }
 
