@@ -24,7 +24,7 @@ export const home: framework.menu = {
 
 export const samplePage: framework.menu = {
   samplePage: {
-    desc: html`<framework-icon icon="file"></framework-icon>Sample Page`,
+    desc: html`<framework-icon icon="cat"></framework-icon>Sample Page`,
     content: "This is the sample page content.",
   },
 }
