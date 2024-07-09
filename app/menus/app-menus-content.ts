@@ -32,21 +32,20 @@ export const primary: framework.menu = {
     class: "barButton barTop primary",
     offset: -2,
   },
-
-  about: {
-    icon: "cat",
-    content: "About",
-    type: "bar",
-    class: "barButton barTop primary",
-    offset: -3,
-  },
-
   illustrations: {
     icon: "pencil",
     content: "Illustrations",
     type: "bar",
     class: "barButton barTop primary",
     offset: -3,
+  },
+
+    about: {
+    icon: "cat",
+    content: "About",
+    type: "bar",
+    class: "barButton barTop primary",
+    offset: -4,
   },
 }
 

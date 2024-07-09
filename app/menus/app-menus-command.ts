@@ -11,8 +11,8 @@ export const commands: framework.menu = {
   },
   skillsPage: {},
   projectsPage: {},
-  about: {},
   illustrations: {},
+ about: {},
 }
 
 // Alias Constants

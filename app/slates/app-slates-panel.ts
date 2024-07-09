@@ -35,16 +35,16 @@ export const projectsPage: framework.menu = {
   },
 }
 
-export const about: framework.menu = {
-  about: {
-    desc: html`<framework-icon icon="file-plus"></framework-icon>Another Page`,
-    content: "This is the about pagecontent.",
-  },
-}
-
 export const illustrations: framework.menu = {
   illustrations: {
     desc: html`<framework-icon icon="file-plus"></framework-icon>Another Page`,
     content: "This is the illustration page content.",
+  },
+}
+
+export const about: framework.menu = {
+  about: {
+    desc: html`<framework-icon icon="file-plus"></framework-icon>Another Page`,
+    content: "This is the about pagecontent.",
   },
 }
