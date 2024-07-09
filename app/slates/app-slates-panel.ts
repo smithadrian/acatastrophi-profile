@@ -29,9 +29,10 @@ export const skillsPage: framework.menu = {
 }
 
 export const projectsPage: framework.menu = {
-  projectsPage: {
+  scrubjay: {
     desc: html`<framework-icon icon="bars-staggered"></framework-icon>Contract projects`,
     content: "This is where I will add my projects.",
+    img: {projects: "scrubjay.png"}
   },
 }
 
