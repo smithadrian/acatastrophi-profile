@@ -9,7 +9,7 @@ export const commands: framework.menu = {
   home: {
     default: true,
   },
-  samplePage: {},
+  skillsPage: {},
   projectsPage: {},
   about: {},
   illustrations: {},

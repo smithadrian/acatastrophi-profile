@@ -18,8 +18,8 @@ export const home: framework.menu = {
   },
 }
 
-export const samplePage: framework.menu = {
-  samplePage: {
+export const skillsPage: framework.menu = {
+  skillsPage: {
     class: "purpleGradBk thinBanner centerHorizontal centerVertical",
     labelClass: "mediumFat thinDropShadow",
     label: html`<div>This is the sample page banner.</div>`,
@@ -27,7 +27,7 @@ export const samplePage: framework.menu = {
 }
 
 export const projectsPage: framework.menu = {
-  anotherPage: {
+  ProjectsPage: {
     class: "purpleGradBk thinBanner centerHorizontal centerVertical",
     labelClass: "mediumFat thinDropShadow",
     label: html`<div>This is the projects page banner.</div>`,

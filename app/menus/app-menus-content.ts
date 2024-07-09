@@ -18,9 +18,9 @@ export const primary: framework.menu = {
     type: "bar",
     class: "barButton barTop primary",
   },
-  samplePage: {
+  skillsPage: {
     icon: "dog",
-    content: "Sample Page",
+    content: "Skills",
     type: "bar",
     class: "barButton barTop primary",
     offset: -1,
@@ -62,7 +62,7 @@ export const footer: framework.menu = {
   resume: {
     content: "Resume",
     icon: "file",
-    url: "public/pdf/resume2024.pdf",
+    url: "",
   },
   slate: {
     icon: "layer-group",

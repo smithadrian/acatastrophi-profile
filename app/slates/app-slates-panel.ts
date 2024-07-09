@@ -21,8 +21,8 @@ export const home: framework.menu = {
 
 // SAMPLE PANELS
 
-export const samplePage: framework.menu = {
-  samplePage: {
+export const skillsPage: framework.menu = {
+  skillsPage: {
     desc: html`<framework-icon icon="cat"></framework-icon>Sample Page`,
     content: "This is the sample page content.",
   },
