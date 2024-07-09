@@ -14,7 +14,7 @@ export const home: framework.menu = {
   home: {
     img: { acat: "A cat.png" },
     desc: html`<framework-icon icon="cat"></framework-icon> Adrian Smith`,
-    content: ["Welcome to my portfolio! I am passionate about bringing stories to life through art and technology. With a background in media arts and animation, I specialize in crafting captivating narratives and visual experiences. Explore my work and discover how I blend creativity with technical expertise to breathe life into every project."],
+    content: ["Welcome to my portfolio!", "I am passionate about bringing stories to life through art and technology." , " With a background in media arts and animation, I specialize in crafting captivating narratives and visual experiences." , "Explore my work and discover how I blend creativity with technical expertise to breathe life into every project."],
     default: true,
   },
 }
