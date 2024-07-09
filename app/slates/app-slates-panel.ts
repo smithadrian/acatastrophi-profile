@@ -13,7 +13,7 @@ import { html } from "lit"
 export const home: framework.menu = {
   home: {
     img: { acat: "A cat.png" },
-    desc: html`<framework-icon icon="layer-group"></framework-icon>Slate&trade;
+    desc: html`<framework-icon icon="cat"></framework-icon>Slate&trade;
       Starter Kit`,
     content: ["Passionate about bringing stories to life through art and technology."],
     default: true,
