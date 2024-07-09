@@ -15,7 +15,7 @@ export const home: framework.menu = {
     img: { acat: "A cat.png" },
     desc: html`<framework-icon icon="layer-group"></framework-icon>Slate&trade;
       Starter Kit`,
-    content: ["hello world", "how are we feeling"],
+    content: ["Passionate about bringing stories to life through art and technology."],
     default: true,
   },
 }
