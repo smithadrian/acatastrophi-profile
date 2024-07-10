@@ -37,9 +37,10 @@ export const projectsPage: framework.menu = {
 }
 
 export const illustrations: framework.menu = {
-  illustrations: {
-    desc: html`<framework-icon icon="file-plus"></framework-icon>Another Page`,
-    content: "This is the illustration page content.",
+  Acatastrophi: {
+    desc: html`<framework-icon icon="fire"></framework-icon>Acatastrophi is created`,
+    content: "This bitmap illustration was created in Clip Studio Paint.",
+    img: {personal: "acat-creation.png"}
   },
 }
 export const about: framework.menu = {
