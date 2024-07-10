@@ -39,7 +39,7 @@ export const illustrations: framework.menu = {
   illustrations: {
     class: "purpleGradBk thinBanner centerHorizontal centerVertical",
     labelClass: "mediumFat thinDropShadow",
-    label: html`<div>This is the illustrations page banner.</div>`,
+    label: html`<div>Personal Projects.</div>`,
   },
 }
 export const about: framework.menu = {

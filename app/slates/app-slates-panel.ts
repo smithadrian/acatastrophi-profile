@@ -31,7 +31,7 @@ export const skillsPage: framework.menu = {
 export const projectsPage: framework.menu = {
   scrubjay: {
     desc: html`<framework-icon icon="feather"></framework-icon>Weddings by Dallas` ,
-    content: ["Five vector illustrations using Adobe Illustrator. These images are inspired by the California Scub-jay.Used by client in general marketing strategies, and brand recognition" , "Along with the style guide provided, this set of vector images were used in marketing materials such as business cards, brochures, and web design.", "The client was able to increase their brand recognition by utilizing the graphics to manage a cohesive visual design across all marketing campaigns."],
+    content: ["Five vector illustrations using Adobe Illustrator. These images are inspired by the California Scub-jay. Working closely with the client we were able to narrow down a specific design we could both be excited to move forward with", "Used by client in general marketing strategies, and brand recognition" , "Along with the style guide provided, this set of vector images were used in marketing materials such as business cards, brochures, and web design.", "The client was able to increase their brand recognition and awareness by utilizing the graphics to manage a cohesive visual design across all marketing campaigns.", "With the file type being formatted to SVG the client is able to use these images on printable material as well as using them via web components at any size without losing image clarity."],
     img: {projects: "scrubjay.png"}
   },
 }
