@@ -22,9 +22,9 @@ export const home: framework.menu = {
 // SAMPLE PANELS
 
 export const skillsPage: framework.menu = {
-  skillsPage: {
-    desc: html`<framework-icon icon="cat"></framework-icon>Sample Page`,
-    content: "This is the sample page content.",
+  adobe: {
+    desc: html`<framework-icon icon="pen-nib"></framework-icon>Adobe Suite`,
+    content: ["proficient in the Creative Cloud Suite", "- Illustrator" , "- Photoshop" , "- InDesign" , "- Premier"]
   },
 }
 

@@ -22,7 +22,7 @@ export const skillsPage: framework.menu = {
   skillsPage: {
     class: "purpleGradBk thinBanner centerHorizontal centerVertical",
     labelClass: "mediumFat thinDropShadow",
-    label: html`<div>This is the sample page banner.</div>`,
+    label: html`<div>These are the things I'm good at</div>`,
   },
 }
 
