@@ -24,7 +24,8 @@ export const home: framework.menu = {
 export const skillsPage: framework.menu = {
   adobe: {
     desc: html`<framework-icon icon="pen-nib"></framework-icon>Adobe Suite`,
-    content: ["proficient in the Creative Cloud Suite", "- Illustrator" , "- Photoshop" , "- InDesign" , "- Premier"]
+    content: ["proficient in the Creative Cloud Suite", "- Illustrator" , "- Photoshop" , "- InDesign" , "- Premier"],
+    img: {products: "adobe.webp"}
   },
 }
 
